@@ -13,3 +13,5 @@ collections:
     output: true
     permalink: /:collection/:slug
     sort_by: updated_at || published_at
+
+include: ["node_modules/tailwindcss"]
