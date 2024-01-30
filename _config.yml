@@ -7,3 +7,9 @@ plugins:
 
 postcss:
   cache: false
+
+collections:
+  notes:
+    output: true
+    permalink: /:collection/:slug
+    sort_by: updated_at || published_at
